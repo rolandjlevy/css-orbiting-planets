@@ -18,7 +18,7 @@ html, body {
 }
 
 .sun {
-  background-image: linear-gradient(-45deg, #ffbb00cc 10%, transparent 100%);
+  background-image: linear-gradient(-45deg, #ffbb00cc 0%, transparent 100%);
   position: absolute;
   height: 25%;
   width: 25%;
@@ -44,7 +44,7 @@ html, body {
 }
 
 .earth-wrapper .earth {
-  background-image: linear-gradient(-45deg, #27ae60cc 10%, transparent 100%);
+  background-image: linear-gradient(-45deg, #27ae60cc 0%, transparent 100%);
   opacity: 0.7;
   height: 15%;
   width: 15%;
@@ -77,7 +77,7 @@ html, body {
 }
 
 .pluto-wrapper .pluto {
-  background-image: linear-gradient(-45deg, #21acd6cc 10%, transparent 100%);
+  background-image: linear-gradient(-45deg, #21acd6cc 0%, transparent 100%);
   opacity: 0.7;
   height: 10%;
   width: 10%;
