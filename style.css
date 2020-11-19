@@ -18,13 +18,20 @@ html, body {
 }
 
 .sun {
-  background: #ffcf11;
+  background-image: linear-gradient(-45deg, #ffbb00cc 10%, transparent 100%);
   position: absolute;
   height: 25%;
   width: 25%;
   z-index: 2;
   border-radius: 100%;
   filter: drop-shadow(0 0 20px #ffe88d);
+  animation: rotateSun linear 20s infinite; 
+}
+
+@keyframes rotateSun {
+  to { 
+    transform: rotate(360deg) 
+  }
 }
 
 .earth-wrapper {
@@ -33,13 +40,11 @@ html, body {
   height: 85%;
   width: 85%;
   z-index: 1;
-  /* background-color: #333;
-  opacity: 0.3; */
   animation: rotateEarth linear 15s infinite; 
 }
 
 .earth-wrapper .earth {
-  background: #27ae60;
+  background-image: linear-gradient(-45deg, #27ae60cc 10%, transparent 100%);
   opacity: 0.7;
   height: 15%;
   width: 15%;
@@ -68,13 +73,11 @@ html, body {
   height: 50%;
   width: 50%;
   z-index: 1;
-  /* background-color: #333;
-  opacity: 0.3; */
   animation: rotatePluto linear 8s infinite; 
 }
 
 .pluto-wrapper .pluto {
-  background: #21acd6;
+  background-image: linear-gradient(-45deg, #21acd6cc 10%, transparent 100%);
   opacity: 0.7;
   height: 10%;
   width: 10%;
