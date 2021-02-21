@@ -5,7 +5,7 @@ html, body {
   justify-content: center;
   height: 100%;
   width: 100%;
-  background: #1e2d3b;
+  background: #070e2e;
 }
 
 .universe {
@@ -44,7 +44,8 @@ html, body {
 }
 
 .earth-wrapper .earth {
-  background-image: linear-gradient(-45deg, #27ae60cc 0%, transparent 100%);
+  /* background-image: linear-gradient(-45deg, #27ae60cc 0%, transparent 100%); */
+  background: radial-gradient(at 60% bottom, #5cffa0cc, #27aea366, #00309966);
   opacity: 0.7;
   height: 15%;
   width: 15%;
